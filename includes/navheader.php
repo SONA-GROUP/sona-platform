@@ -6,8 +6,9 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/style-2.css">-->
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 
 </head>
 <body>
@@ -16,22 +17,22 @@
 	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="index.php">SONA</a>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-list-toggle">Toggle navbar</button>
+			<button class="navbar-toggle" data-toggle="collapse" data-target="#nav-list-toggle"><i class="fa fa-bars" ></i></button>
+			
 		</div>
 		
 		<div class="collapse navbar-collapse" id="nav-list-toggle">
 			<ul class="nav navbar-nav">
-				<li><a href="about.php">About us</a></li>
-				<li><a href="contactus.php">Contact us</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="#">Designs</a></li>
+				<li><a href="about.php">Know About Us</a></li>
+				<li><a href="about.php">Blog</a></li>
+				<li><a href="contactus.php">Mail us</a></li>
 			</ul>
-			<div class="navbar-right">
-				<button type="button" class="btn btn-default navbar-btn" data-target="#login-modal" data-toggle="modal">
-					Login <i class="fa fa-lock"></i> 
-				</button>
-				<button type="button" class="btn btn-default navbar-btn" data-target="#signup-modal" data-toggle="modal">
-					 Signup
-				</button>
-			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><spam class="badge badge-pink text-right"><i class="fa fa-shopping-cart fa-2x"></i>0</spam></a></li>
+			</ul>
+			
 		</div>
-	</div>
+</div>
 </nav>

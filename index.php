@@ -6,60 +6,131 @@
 <div class="body-section">
 	<!-- slider section -->
 	<div id="slider-section">
-		<div class="btn-place-middle">
-			<button class="btn btn-default trigger-request-modal">make a Request now</button>
+		<div class="transparent-box">
+			<form>
+
+				<div class="row">
+					<div class=" col-xs-8 col-sm-10">
+						<input type="text" class="form-control" placeholder="search for design">
+					</div>
+					<div class="col-xs-2 col-sm-2 ">
+						<button class="btn btn-green"><i class="fa fa-search"></i></button> 
+					</div>
+				</div>	
+			</form>
+			
 		</div>
 	</div>
 	<!-- slider section  ends..-->
 
+	<!-- help section begins .. -->
+	<div class="section">
+		<div class="container">
+			<h3>Our WorkFlow</h3>
+			<hr>
+			<div row>
+				<div class="col-xs-12 col-sm-3 ">
+					<div class="help-box">
+						<div class="icon-box icon-red">
+							<i class="fa fa-check-square-o fa-5x"></i>
+						</div>
+						<p class="help-text">
+							select a design
+						</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 ">
+					<div class="help-box">
+						<div class="icon-box icon-pink">
+							<i class="fa fa-pencil-square-o fa-5x"></i>
+						</div>
+						<p class="help-text">
+							fill in measurement details
+						</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 ">
+					<div class="help-box">
+						<div class="icon-box icon-purple">
+							<i class="fa fa-send-o fa-5x"></i>
+						</div>
+						<p class="help-text">
+							send your View Details
+						</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 ">
+					<div class="help-box">
+						<div class="icon-box icon-green">
+							<i class="fa fa-check-square-o fa-5x"></i>
+						</div>
+						<p class="help-text">
+							We Delivery in 7 working Days
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- help section ends..  -->
 	<!-- product display section -->
 	<div class="product-display-section">
-		<div class="product-search">
-			<form class="form-horizontal">
-				<input type="text" class="form-control search-form-input" placeholder="Serach For Design">
-			</form>
-		</div>
 		<div class="container">
+			<h3> Our Top Design</h3>
+			<hr>
 			<!-- grid section --> 
 			<div class="row">
-				<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
 					<div class="product-container">
 						<div class="product-image-box">
-							<img src="images/15.jpg" class="img-responsive product-image">
+							<img src="images/12.jpg" class="img-responsive product-image">
 						</div>
 						<div class="product-discrib">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							<p>
+								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">request</button>
+							<button class="btn btn-orange btn-sm">View Details</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+					<div class="product-container">
+						<div class="product-image-box">
+							<img src="images/12.jpg" class="img-responsive product-image">
+						</div>
+						<div class="product-discrib">
+							<p>
+								Lorem ipsum dolor 
+							</p>
+							<button class="btn btn-orange btn-sm">View Details</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
 					<div class="product-container">
 						<div class="product-image-box">
-							<img src="images/15.jpg" class="img-responsive product-image">
+							<img src="images/12.jpg" class="img-responsive product-image">
 						</div>
 						<div class="product-discrib">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							<p>
+								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">request</button>
+							<button class="btn btn-orange btn-sm">view details</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
 					<div class="product-container">
 						<div class="product-image-box">
-							<img src="images/15.jpg" class="img-responsive product-image">
+							<img src="images/12.jpg" class="img-responsive product-image">
 						</div>
 						<div class="product-discrib">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							<p>
+								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">request</button>
+							<button class="btn btn-orange btn-sm">View Details</button>
 						</div>
 					</div>
 				</div>
@@ -68,44 +139,59 @@
 
 				<!-- grid section --> 
 			<div class="row">
-				<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
 					<div class="product-container">
 						<div class="product-image-box">
-							<img src="images/15.jpg" class="img-responsive product-image">
+							<img src="images/12.jpg" class="img-responsive product-image">
 						</div>
 						<div class="product-discrib">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							<p>
+								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">request</button>
+							<button class="btn btn-orange btn-sm">View Details</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
 					<div class="product-container">
 						<div class="product-image-box">
-							<img src="images/15.jpg" class="img-responsive product-image">
+							<img src="images/12.jpg" class="img-responsive product-image">
 						</div>
 						<div class="product-discrib">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							<p>
+								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">request</button>
+							<button class="btn btn-orange btn-sm">View Details</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
 					<div class="product-container">
 						<div class="product-image-box">
-							<img src="images/15.jpg" class="img-responsive product-image">
+							<img src="images/12.jpg" class="img-responsive product-image">
 						</div>
 						<div class="product-discrib">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							<p>
+								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">request</button>
+							<button class="btn btn-orange btn-sm">View Details</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+					<div class="product-container">
+						<div class="product-image-box">
+							<img src="images/12.jpg" class="img-responsive product-image">
+						</div>
+						<div class="product-discrib">
+							<p>
+								Lorem ipsum dolor 
+							</p>
+							<button class="btn btn-orange btn-sm">View Details</button>
 						</div>
 					</div>
 				</div>
@@ -150,93 +236,10 @@
 		</div>
 </div>
 
-<!-- Modal  login -->
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content modal-content-form">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
-				<h4 class="modal-title" id="myModalLabel">
-					Login
-				</h4>
-			</div>
-			<div class="modal-body">
-				<form class="form" id="login-form"> 
-					<div class="form-group">
-						<label for="">Username / E-mail</label>
-						<input type="text" class="custom-input" placeholder="enter your username or email " required>
-					</div>	
-					<div class="form-group">
-						<label for="password">Password</label>
-						<input type="password" class="custom-input" placeholder="" required>
-					</div>
-					<div class="forgot">
-							<a href="#">Forgot Password?</a>
-					</div>
-				</form>
-			</div>
-			<div class="modal-footer">
-				<button type="submit" class="btn  btn-orange btn-full" form="login-form" >
-					Login 
-				</button>
-			</div>
-		</div><!-- /.modal-content -->
-	</div>
-</div><!-- /.modal login ends..-->
 
-<!-- Modal  register -->
-<div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content modal-content-form">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
-				<h4 class="modal-title" id="myModalLabel">
-					SignUP
-				</h4>
-			</div>
-			<div class="modal-body">
-				<form class="form" id="signup-form"> 
-					<div class="form-group">
-						<label for="">Fullname</label>
-						<input type="text" class="custom-input" placeholder="enter your name  " required>
-					</div>	
-					<div class="form-group">
-						<label for="">Username / E-mail</label>
-						<input type="text" class="custom-input" placeholder="enter your email " required>
-					</div>	
-					<div class="form-group">
-						<label for="password">Password</label>
-						<input type="password" class="custom-input" placeholder="" required>
-					</div>
-					<div class="form-group">
-						<label for="password">Confirm Password</label>
-						<input type="password" class="custom-input" placeholder="" required>
-					</div>
-				</form>
-			</div>
-			<div class="modal-footer">
-				<button type="submit" class="btn  btn-orange btn-full" form="signup-form" >
-					SignUp
-				</button>
-			</div>
-		</div><!-- /.modal-content -->
-	</div>
-</div>
-<!-- Modal register ends ... -->
 <script>
-	window.onLoad = setInterval(slider,5000);	
-	function getRandomInt(min, max) {
-		min = Math.ceil(min);
-  		max = Math.floor(max);
-  		return Math.floor(Math.random() * (max - min)) + min;
-	}
-			
-	function slider()
-	{
-		var link = "url('images/" +getRandomInt(1,15)+ ".jpg')";
-		var slider = document.getElementById("slider-section");
-		slider.style.backgroundImage = link;
-	}	
+	
+	
 </script>
 </body>
 </html>

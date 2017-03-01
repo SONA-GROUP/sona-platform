@@ -8,9 +8,15 @@ body{
 	position:fixed;
 	top:0;
 	left:0;
+	color:#000;
 	border-radius:0;
 	height:50px;
 	z-index:200;
+}
+
+.badge-pink{
+	background-color:#E91E63;
+
 }
 .body-section{
 	width:100%;
@@ -21,20 +27,46 @@ body{
 	z-index:-200;
 	padding:0;
 }
+
+/* slider animatin style  begings ..*/
+@-webkit-keyframes slider { from { background-image:url("../images/sliderimage1.jpg"); } 
+					50% {background-image:url("../images/sliderimage2.jpg");  } 
+					to {background-image:url("../images/sliderimage3.jpg");  }
+ }
+ @-moz-keyframes slider { from { background-image:url("../images/sliderimage1.jpg"); } 
+					50% {background-image:url("../images/sliderimage2.jpg");  } 
+					to {background-image:url("../images/sliderimage3.jpg");  } 
+ }
+ @-o-keyframes slider { from { background-image:url("../images/sliderimage1.jpg"); } 
+					50% {background-image:url("../images/sliderimage2.jpg");  } 
+					to {background-image:url("../images/sliderimage3.jpg");  }
+ }
+ @keyframes slider { from { background-image:url("../images/sliderimage1.jpg"); } 
+					50% {background-image:url("../images/sliderimage2.jpg");  } 
+					to {background-image:url("../images/sliderimage3.jpg");  }
+ }
+ /* slider animatin style ends ..*/
 #slider-section{
 	width:100%;
-	height:400px;
-	background:url("../images/1.jpg");
+	max-height:400px;
+	/*background:url("../images/sliderimage1.jpg");*/
 	/*background-color:#607d8b;*/
-	background-size:auto  400px;
-	background-repeat: repeat-x;
+	background-size:100% 400px;
+	background-repeat:no-repeat;
 	overflow:hidden;
 	box-shadow: 0 0 5px #555;
-
+	-webkit-animation: 30s ease-in  infinite slider;
+     -moz-animation: 30s ease-in  infinite slider;
+       -o-animation: 30s ease-in  infinite slider;
+          animation: 30s ease  infinite slider;
 }
-.btn-place-middle{
+
+.transparent-box{
 	width:50%;
-	margin:300px auto ;
+	padding:20px;
+	margin:250px auto ;
+	background-color:rgba(0,0,0,0.4);
+	border-radius:4px;
 }
 .trigger-request-modal{
 	width:100%;
@@ -88,7 +120,9 @@ body{
 	align-content: center;: 
 }
 .product-discrib p{
-	
+	font-weight: 600;
+	font-size:13px;
+	text-transform: capitalize;	
 }
 .left{
 	float:left;
@@ -190,4 +224,36 @@ body{
 .border-blue{
 	border-color:#2196F3;
 
+}
+.help-box{
+	width:100%;
+	height:auto;
+	border:solid 1px #000;
+	text-align:center;
+	padding:5px;
+
+}
+.icon-box{
+	font-size:25px;
+	margin:auto;
+}
+.icon-red{
+	color:#F44336;
+}
+.icon-pink{
+	color:#E91E63;
+}
+.icon-purple{
+	color:#9C27B0;
+}
+.icon-blue{
+	color:#2196F3;
+}
+.icon-green{
+	color:#4CAF50;
+}
+.help-text{
+	font-weight: 600;
+	text-transform: capitalize;
+	font-size:16px ;
 }
