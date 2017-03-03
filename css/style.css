@@ -303,3 +303,38 @@ body{
 	text-transform: capitalize;
 	font-size:16px ;
 }
+.login-box{
+	width:50%;
+	height:auto;
+	padding:15px;
+	margin:100px auto;
+	box-shadow:3px 3px 15px #444;
+	border-radius:4px ;
+}
+.facebook-login{
+	background-color:transparent;
+	color:#1976D2;
+	width:100%;
+	border:solid 1px #1976D2;
+	font-size:100%!important;
+	box-shadow:inset 0 0 0 0 #ccc;
+	transition: all ease 0.9s;
+}
+.google-login{
+	background-color:transparent;
+	color:#F44336;
+	width:100%;
+	border:solid 1px #F44336;
+	font-size:100%!important;
+	box-shadow:inset 0 0 0 0 #ccc;
+	transition: all ease 0.9s;
+
+}
+.facebook-login:hover{
+	box-shadow: inset 0 100px 100px 0 #1976D2; 
+	color:#fff;
+}
+.google-login:hover{
+	box-shadow: inset 0 100px 100px 0 #F44336; 
+	color:#fff;
+}

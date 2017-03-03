@@ -21,10 +21,10 @@
 				<a href="orderlist.php" class="center"><i class="fa fa-shopping-bag icon-pink"></i> <span class="list-item-style">Order Bag</span></a>
 			</li>
 			<li>
-				<a href="#" class="center"><i class="fa fa-sign-in icon-blue"></i> <span class="list-item-style">Login</span></a>
+				<a href="login.php" class="center"><i class="fa fa-sign-in icon-blue"></i> <span class="list-item-style">Login</span></a>
 			</li>
 			<li>
-				<a href="#" class="center"><i class="fa fa-user icon-green"></i> <span class="list-item-style">Sign Up</span></a>
+				<a href="signup.php" class="center"><i class="fa fa-user icon-green"></i> <span class="list-item-style">Sign Up</span></a>
 			</li>
 		</ul>
 	</div>
