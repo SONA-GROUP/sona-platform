@@ -1,17 +1,43 @@
 body{
 	fon-family:"open sans";
 }
-.navbar{
-	background-color:#fff;
-	border-bottom:1px solid #2962FF;
+.main{
 	width:100%;
+	z-index:1;
+	height:auto;
 	position:fixed;
 	top:0;
 	left:0;
+	height:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color: #444;
+}
+.main ul{
+	list-style-type:none;
+}
+.main ul li{
+	display:inline-block;
+}
+.main ul li a{
+	color:#fff;
+	text-align:center;
+	font-size:12px;
+	padding-left:10px;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.navbar{
+	background-color:#fff;
+	border-bottom:1px solid #2962FF;
+	position:fixed;
+	top:20px;
+	width:100%;
 	color:#000;
 	border-radius:0;
-	height:50px;
-	z-index:200;
+	height:auto;
+	
 }
 
 .badge-pink{
@@ -22,9 +48,9 @@ body{
 	width:100%;
 	height:auto;
 	position:absolute;
-	top:50px;
+	top:60px;
 	left:0;
-	z-index:-200;
+	z-index:-1;
 	padding:0;
 }
 
@@ -48,10 +74,10 @@ body{
  /* slider animatin style ends ..*/
 #slider-section{
 	width:100%;
-	max-height:400px;
+	height:400px;
 	/*background:url("../images/sliderimage1.jpg");*/
 	/*background-color:#607d8b;*/
-	background-size:100% 400px;
+	background-size:100% 100%;
 	background-repeat:no-repeat;
 	overflow:hidden;
 	box-shadow: 0 0 5px #555;
@@ -117,12 +143,15 @@ body{
 }
 .product-discrib{
 	padding:5px;
-	align-content: center;: 
+	align-content: center;
 }
 .product-discrib p{
 	font-weight: 600;
 	font-size:13px;
 	text-transform: capitalize;	
+}
+.center{
+	text-align:center;
 }
 .left{
 	float:left;
@@ -130,6 +159,17 @@ body{
 .right{
 	float:right;
 }
+
+/*.list-item-style{
+	display:block;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 600px;
+    text-transform: capitalize;
+    color: #fff;
+    padding-left: .3em;
+}
+*/
 .btn-orange{
 	background-color:transparent;
 	border-color:#ff3d00;
@@ -217,6 +257,10 @@ body{
 	border-color:#F44336;
 
 }
+.btn-red{
+	background-color:#F44336;
+	color:#fff;
+}
 .card-topBottom-border{
 	border-top:2px solid ;
 	border-bottom: 2px solid;
@@ -228,9 +272,11 @@ body{
 .help-box{
 	width:100%;
 	height:auto;
-	border:solid 1px #000;
+	border:solid 1px #ccc;
 	text-align:center;
 	padding:5px;
+	margin:5px;
+	box-shadow:2px 2px 12px #bbb ;
 
 }
 .icon-box{

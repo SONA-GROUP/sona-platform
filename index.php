@@ -26,7 +26,7 @@
 	<!-- help section begins .. -->
 	<div class="section">
 		<div class="container">
-			<h3>Our WorkFlow</h3>
+			<h4 class="text-primary">Our WorkFlow</h4>
 			<hr>
 			<div row>
 				<div class="col-xs-12 col-sm-3 ">
@@ -76,7 +76,7 @@
 	<!-- product display section -->
 	<div class="product-display-section">
 		<div class="container">
-			<h3> Our Top Design</h3>
+			<h4 class="text-primary">Our Top Design</h4>
 			<hr>
 			<!-- grid section --> 
 			<div class="row">
