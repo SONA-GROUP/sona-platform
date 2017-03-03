@@ -9,13 +9,13 @@
 				<h4 class="text-center ">Login Here</h4>
 				<hr>
 				<div class="row">
-					<div class="col-sm-6">
+					<div class=" col-xs-12 col-sm-6">
 						<button class="btn facebook-login">
 							<i class="fa fa-facebook"></i>
 							<p>Continue With Facebook Account</p>
 						</button>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-xs-12 col-sm-6">
 						<button class=" btn google-login">
 							<i class="fa fa-google"></i>
 							<p>Continue With Google Account</p>
