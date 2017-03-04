@@ -89,7 +89,7 @@
 							<p>
 								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">View Details</button>
+							<a href="designDetails.php" class="btn btn-orange btn-sm">View Details</a>
 						</div>
 					</div>
 				</div>
@@ -102,21 +102,7 @@
 							<p>
 								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">View Details</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
-					<div class="product-container">
-						<div class="product-image-box">
-							<img src="images/12.jpg" class="img-responsive product-image">
-						</div>
-						<div class="product-discrib">
-							<p>
-								Lorem ipsum dolor 
-							</p>
-							<button class="btn btn-orange btn-sm">view details</button>
+							<a href="designDetails.php" class="btn btn-orange btn-sm">View Details</a>
 						</div>
 					</div>
 				</div>
@@ -130,7 +116,21 @@
 							<p>
 								Lorem ipsum dolor 
 							</p>
-							<button class="btn btn-orange btn-sm">View Details</button>
+							<a href="designDetails.php" class="btn btn-orange btn-sm">View Details</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+					<div class="product-container">
+						<div class="product-image-box">
+							<img src="images/12.jpg" class="img-responsive product-image">
+						</div>
+						<div class="product-discrib">
+							<p>
+								Lorem ipsum dolor 
+							</p>
+							<a href="designDetails.php" class="btn btn-orange btn-sm">View Details</a>
 						</div>
 					</div>
 				</div>
@@ -210,30 +210,10 @@
 	</div>
 	<!-- product display section ends.. -->
 
-	<div class="footer">
-		<div class="container">
-			<div class="row">
-				<div class=" col-xs-12 col-md-6 col-sm-6 col-lg-6">
-					<div class="footer-grids">
-						<h3>About Us</h3>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span>Excepteur sint occaecat cupidatat 
-							non proident, sunt in culpa qui officia deserunt mollit.</span></p>
-					</div>		
-				</div>
-				<div class=" col-xs-12 col-md-6 col-sm-6 col-lg-6  ">
-					<div class="footer-grids">
-						<h3>Contact Info</h3>
-						<ul>
-							<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-							<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-							<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-						</ul>
-					</div>
-				</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-		</div>
+	<?php
+		include("includes/footer.php");
+
+	?>
 </div>
 
 

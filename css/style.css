@@ -252,8 +252,6 @@ p{
 .card-lg{
 	width:90%;
 	margin:10px auto;
-	
-
 }
 .card-left-border{
 	border-left:2px solid ;
@@ -357,6 +355,55 @@ p{
 	width:20px;
 	height:20px;
 	border:solid 1px #444;
+	border-radius:0;
+
+}
+.design-price{
+	color:orange;
+	font-style: italic;
+	font-size: 16px ;
+	font-weight: 400;
+}
+.design-name{
+	color:#000;
+	font-size:30px;
+	font-weight:600;
+	text-transform: capitalize;
+	text-shadow: 2px 2px 2px  #bbb;
+}
+.design-details{
+	color:#999;
+	font-size:14px;
+	font-weight: 500;
+}
+.tags{
+	color:#000;
+	font-weight:500;
+	font-size: 16px;
+}
+.image-view{
+	height:400px;
+}
+.image-viewer{
+	width:100%;
+	height:100%;
+	margin:auto;
+}
+.images{
+	width:50%;
+	height:50%;
+}
+.images:hover{
+	cursor: pointer;
+}
+.related-design-box{
+	background-color:#d5d5d5;
+}
+.measurement-box{
+
+	width:80%;
+}
+.border-radius-zero{
 	border-radius:0;
 
 }
